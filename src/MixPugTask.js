@@ -172,8 +172,6 @@ class MixPugTask extends Task {
             asset.makeDirectories();
         }
 
-        Mix.addAsset(asset);
-
         return asset;
     }
 
