@@ -57,7 +57,12 @@ class MixPugTask extends Task {
         // Preprare destination assets
         this.assets = files.map(asset => this.prepareAssets(asset));
 
+        // While watching, avoid that changing not only pug but all trigger to compile
+        // Unnecessary compiling will cause unnecessary reloading
+        // and prevent injection of changes by BrowserSync
+        if (this.watching) return;
         this.compile();
+        this.watching = true;
     }
 
 
