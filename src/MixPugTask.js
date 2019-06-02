@@ -134,7 +134,7 @@ class MixPugTask extends Task {
             notifier.notify({
                 title: 'Laravel Mix',
                 message: 'Pug Compilation Successful',
-                contentImage: 'node_modules/laravel-mix-pug/src/logo.png'
+                contentImage: 'node_modules/@dsktschy/laravel-mix-pug/src/logo.png'
             });
         }
     }
@@ -156,7 +156,7 @@ class MixPugTask extends Task {
                 title: 'Laravel Mix',
                 subtitle: 'Pug Compilation Failed',
                 message: output,
-                contentImage: 'node_modules/laravel-mix-pug/src/logo.png'
+                contentImage: 'node_modules/@dsktschy/laravel-mix-pug/src/logo.png'
             });
         }
     }

@@ -1,5 +1,5 @@
 {
-  "name": "laravel-mix-pug",
+  "name": "@dsktschy/laravel-mix-pug",
   "version": "0.2.1",
   "description": "Laravel Mix Plugin for compiling Pug/Jade templates.",
   "main": "src/index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/matejsvajger/laravel-mix-pug.git"
+    "url": "git+https://github.com/dsktschy/laravel-mix-pug.git"
   },
   "keywords": [
     "laravel",
@@ -18,9 +18,9 @@
   "author": "Matej Svajger <hello@matejsvajger.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/matejsvajger/laravel-mix-pug/issues"
+    "url": "https://github.com/dsktschy/laravel-mix-pug/issues"
   },
-  "homepage": "https://github.com/matejsvajger/laravel-mix-pug#readme",
+  "homepage": "https://github.com/dsktschy/laravel-mix-pug#readme",
   "dependencies": {
     "foldero": "^0.1.1",
     "glob": "^7.1.2",

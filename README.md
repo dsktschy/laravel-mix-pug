@@ -2,27 +2,27 @@
 Laravel Mix Plugin for compiling Pug/Jade templates.
 
 <p align="center">
-<a href="https://www.npmjs.com/package/laravel-mix-pug"><img src="https://img.shields.io/npm/v/laravel-mix-pug.svg" alt="NPM"></a>
-<a href="https://www.npmjs.com/package/laravel-mix-pug"><img src="https://img.shields.io/npm/dt/laravel-mix-pug.svg" alt="NPM"></a>
-<a href="https://www.npmjs.com/package/laravel-mix-pug"><img src="https://img.shields.io/npm/l/laravel-mix-pug.svg" alt="NPM"></a>
+<a href="https://www.npmjs.com/package/@dsktschy/laravel-mix-pug"><img src="https://img.shields.io/npm/v/@dsktschy/laravel-mix-pug.svg" alt="NPM"></a>
+<a href="https://www.npmjs.com/package/@dsktschy/laravel-mix-pug"><img src="https://img.shields.io/npm/dt/@dsktschy/laravel-mix-pug.svg" alt="NPM"></a>
+<a href="https://www.npmjs.com/package/@dsktschy/laravel-mix-pug"><img src="https://img.shields.io/npm/l/@dsktschy/laravel-mix-pug.svg" alt="NPM"></a>
 </p>
 
 ## Introduction
 
-This package provides a plugin for Laravel Mix to compile pug templates. `laravel-mix-pug` requires Laravel Mix to work. Please follow the instructions on how to use it on the package [repository](https://github.com/JeffreyWay/laravel-mix).
+This package provides a plugin for Laravel Mix to compile pug templates. `@dsktschy/laravel-mix-pug` requires Laravel Mix to work. Please follow the instructions on how to use it on the package [repository](https://github.com/JeffreyWay/laravel-mix).
 
 ## Usage
 
 Install this package into your project:
 
 ```
-npm install laravel-mix-pug --save-dev
+npm install @dsktschy/laravel-mix-pug --save-dev
 ```
 Head over to your `webpack.mix.js` and register it on the Laravel Mix API:
 
 ```js
 let mix = require('laravel-mix');
-mix.pug = require('laravel-mix-pug');
+mix.pug = require('@dsktschy/laravel-mix-pug');
 
 mix.js('src/app.js', 'dist')
    .sass('src/app.scss', 'dist')

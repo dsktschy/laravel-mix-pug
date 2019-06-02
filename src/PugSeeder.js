@@ -53,7 +53,7 @@ class PugSeeder {
                     title: 'Laravel Mix',
                     subtitle: 'Pug Compilation Failed',
                     message: e.message,
-                    contentImage: 'node_modules/laravel-mix-pug/src/logo.png'
+                    contentImage: 'node_modules/@dsktschy/laravel-mix-pug/src/logo.png'
                 });
             }
         }
